@@ -240,6 +240,7 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+# Ignore these files and folders
 *.RData
 week1/.Rhistory
 *.pdf
@@ -248,3 +249,5 @@ week1/data/test_read_excel.xlsx
 *.xlsx
 .Rhistory
 *.Rhistory
+.Rhistory
+script.R
