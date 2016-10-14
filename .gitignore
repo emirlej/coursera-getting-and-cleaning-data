@@ -240,3 +240,11 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+*.RData
+week1/.Rhistory
+*.pdf
+*.csv
+week1/data/test_read_excel.xlsx
+*.xlsx
+.Rhistory
+*.Rhistory
