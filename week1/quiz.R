@@ -65,5 +65,6 @@ system.time(sapply(split(DT$pwgtp15, DT$SEX), mean))
 system.time(mean(DT$pwgtp15, by = DT$SEX))
 system.time({
     mean(DT[DT$SEX == 1,]$pwgtp15) 
-    mean(DT[DT$SEX == 2,]$pwgtp15)})
-
+    mean(DT[DT$SEX == 2,]$pwgtp15)
+    }
+    )
